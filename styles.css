@@ -1,25 +1,39 @@
-h1 {
-  color: orange;
-  background-color: slategray;
-  font-size: 30px;
-  text-decoration: underline;
-  font-family: arial;
-  /*  */
-  text-align: center;
-}
-p {
-  color: slategray;
-  text-align: left;
-  line-height: 30px;
-  letter-spacing: 2px;
+/* .error {
+  color: red;
 }
 
-ul {
-  /* border-width: 2px;
-  border-style: solid;
-  border-color: pink; */
-  border: 2px solid #cec0ff;
+.success {
+  color: green;
 }
-li {
-  list-style-type: square;
+
+p.success.feedback {
+  color: darkgoldenrod;
+}
+
+div#content {
+  background-color: lightgrey;
+} */
+/* div p {
+  color: goldenrod;
+}
+
+
+div .error {
+  color: red;
+} */
+
+div.error {
+  color: red;
+
+  margin: 40px;
+  border: 1px solid grey;
+}
+
+div p.error {
+  border: inherit;
+  margin: inherit;
+  color: orange;
+}
+p {
+  color: green;
 }
