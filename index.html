@@ -4,77 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--  -->
-    <link rel="stylesheet" href="styles.css" />
-    <!--  -->
-    <title>css basics</title>
+    <title>Document</title>
   </head>
   <body>
-    <h1>Index page</h1>
-
-    <h3>
-      <div>
-        <a href="./index.html">Home </a>
-        <br />
-        <a href="./about.html">About </a>
+    <header>
+      <h1>MarioClub</h1>
+    </header>
+    <section class="banner">
+      <img src="./image/background-image.jpg" alt="my banner" />
+      <div class="welcome">
+        <h2>welcome to <br /><span>Marioclub</span></h2>
       </div>
-    </h3>
-    <div>
-      <div id="content">
-        <p class="error">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut
-          malesuada libero, interdum vulputate eros. Sed a lobortis tortor.
-          Quisque et elit nec felis ultrices ultricies. Cras pellentesque magna
-          nec pulvinar ultrices. Ut gravida dolor risus, a scelerisque libero
-          tempus eget.
-        </p>
-        <p>
-          Sed condimentum magna semper urna hendrerit, eu interdum nisi
-          pharetra. Etiam blandit mattis orci eget blandit. Donec mauris ligula,
-          pretium sit amet metus sed, fermentum scelerisque quam.
-        </p>
-      </div>
-
-      <p class="success feedback">
-        Donec quis nibh id lectus vulputate lacinia. Pellentesque in dictum
-        tortor, sed dictum risus. Suspendisse vel vulputate felis.
-      </p>
-
-      <div class="error">
-        <h2>this is a h2</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut
-          malesuada libero, interdum vulputate eros. Sed a lobortis tortor.
-          Quisque et elit nec felis ultrices ultricies. Cras pellentesque magna
-          nec pulvinar ultrices. Ut gravida dolor risus, a scelerisque libero
-        </p>
-        <p>
-          tempus eget. Sed condimentum magna semper urna hendrerit, eu interdum
-          nisi pharetra. Etiam blandit mattis orci eget blandit. Donec mauris
-          ligula, pretium sit amet metus sed, fermentum scelerisque quam. Donec
-          quis nibh id lectus vulputate lacinia. Pellentesque in dictum tortor,
-          sed dictum risus. Suspendisse vel vulputate felis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque non
-          magnam necessitatibus suscipit sint aut qui, quam quas quod voluptatem
-          consequuntur. Blanditiis sunt corporis nulla asperiores quisquam, non
-          sint cumque.
-        </p>
-      </div>
-
+    </section>
+    <nav class="main-nav">
       <ul>
-        <li>Ninja 1</li>
-        <li>Ninja 2</li>
-        <li>Ninja 3</li>
+        <li>
+          <a href="/join.html" class="join">Join the club</a>
+          <li><a href="/news.html">Latest news</a></li>
+        <li><a href="/games.html">New games</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        </li>
       </ul>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
-      eum ullam autem debitis ad repellendus assumenda facilis. Laborum,
-      suscipit natus, recusandae accusantium ullam, quisquam explicabo fugiat
-      earum reiciendis voluptatem harum.
-    </p>
-    <!--  -->
+    </nav>
+    <main>
+      <article>
+        <h2>Its me Mario</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate labore reiciendis et velit architecto, provident aperiam nobis sequi harum in, id illo, molestiae ullam corporis deserunt illum ipsum voluptatum alias!</p>
+      </article>
+      <ul class="images">
+        <li><img src="image/green-slate.jpg" alt="green"></li>
+        <li><img src="image/leaves.jpg" alt="leaves"></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h2>Join today</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sequi nulla necessitatibus vel? Mollitia natus aspernatur at autem! Tempore rem ex omnis modi ipsam quam corrupti sit maiores a consectetur?</p>
+      <form >
+        <input type="email" name="email" placeholder="Type email">
+      </form>
+    </section>
+    <footer>
+      <p class="copyright">Copyright Mario fan</p>
+    </footer>
   </body>
 </html>
